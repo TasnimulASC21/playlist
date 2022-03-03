@@ -1,7 +1,10 @@
 // Complete Day 1 goals here
-
+let songs = ["Warriors", "Natrual", "Inferno","The Weapon of the Faithful"];
 function displaySongInfo() {
   // Complete the Day 2 goals inside this function
+  for(int i = 0; i < songs.length; i++ ){
+    $(".title").append(songs[i]);
+  }
 }
 
 function emptySongInfo() {
